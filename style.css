@@ -1,0 +1,197 @@
+
+hr{
+    margin: 0;
+    background: red;
+}
+.all_content{
+    width: 100%;
+    padding-bottom: 100%;
+    background-image:url("img/bg.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.content{
+    margin: 5%;
+    background: #D50032;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    float: left;
+}
+
+
+.betwen{
+    padding-top: 100px;
+}
+.betwen>h1{
+    font-size: 15px;
+    color: #D50032;
+}
+.content:hover{
+    border-radius: 30px;
+}
+input{
+    font-family: sans-serif;
+    border-style:solid;
+    border-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 60px;
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    float: left;
+}
+.inputFirst{
+    height: 20px;
+    width: 200px;
+    margin: 20px 0px 10px 60px;
+}
+
+.exam{
+    text-align: center;
+    height: 40px;
+    width: 60px;
+}
+.indexVSK{
+    border-top-style: inherit;
+    border-top-width: thick;
+    margin: 10px 10px 10px 150px;
+}
+.lineDivide{
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    margin: 0px 0px 0px 65px;
+}
+h1{
+    padding: 20PX;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.submit{
+    background: #D50032;
+    height: 40px;
+    width: auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    border-style: solid;
+    padding: 10px
+}
+
+.submit:hover{
+    border-style: none;
+    background: white;
+    color: #D50032;
+}
+
+
+/*MENU*/
+
+
+
+/*
+.menu{
+    margin: 0px 0px 0px 200px;
+    padding-top: 20px;
+    height: 100px;
+    color: #D50032;
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    padding: 30px;
+    color: #D50032;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover{
+    background: #D50032;
+    color: white;
+}
+
+img{
+    padding-top: 10px;
+    float: left;
+}
+*/
+
+
+/*marker*/
+.help{
+    padding-top: 7px;
+    margin-top: 100px;
+    width: 300px;
+    margin: auto;
+
+}
+
+/* Добавляем собственный маркер для закрытого состояния */
+details summary:before {
+  font-family: "Font Awesome 5 free";
+  margin-right: 7px;
+}
+
+.helper{
+    color: white;
+    background: #D50032;
+    margin-left: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.titleHelp{
+    color: #D50032;
+    font-size: 15px;
+}
+
+.titleHelp:hover{
+    border-bottom: dashed;
+}
+
+details > summary{
+    cursor: pointer;
+    border-radius: 30px;
+    
+}
+
+summary>h1{
+    border-style: dashed;
+}
+
+
+
+
+
+
+
+/* Убираем стандартный маркер Chrome */
+details summary::-webkit-details-marker {
+  display: none
+}
+/* Убираем стандартный маркер Firefox */
+details > summary {
+  list-style: none;
+}
+
+/* Добавляем собственный маркер для закрытого состояния */
+details summary:before {
+  content: ' ';
+  font-family: "Font Awesome 5 free";
+  margin-right: ;
+}
+
+/* Добавляем собственный маркер для открытого состояния */
+details[open] summary:before {
+  content: ' ';
+}
+
+
+
